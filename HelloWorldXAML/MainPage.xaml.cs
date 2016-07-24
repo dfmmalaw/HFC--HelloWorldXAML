@@ -26,5 +26,10 @@ namespace HelloWorldXAML
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            greetingOutput.Text = "Hello, " + nameInput.Text + "!";
+        }
     }
 }
